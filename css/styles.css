@@ -168,7 +168,7 @@ margin-left: 0 auto;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-part {
@@ -326,15 +326,3 @@ footer {
     background-color: #2E2F42;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
