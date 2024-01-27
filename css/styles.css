@@ -323,6 +323,12 @@ letter-spacing: 0.02em;
     padding: 0 16px;
 }
 
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 footer {
     background-color: #2E2F42;
 }
