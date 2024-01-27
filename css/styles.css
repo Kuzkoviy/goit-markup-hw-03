@@ -47,6 +47,8 @@ ol, ul, li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-part{
     color: #2E2F42;
