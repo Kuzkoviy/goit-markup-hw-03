@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-ol, ul {
+ol, ul, li {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -128,10 +128,8 @@ padding: 16px 32px;
 }
 .description-section {
     background: #fff;
-    width: 1128px;
-    height: 104px;
-    flex-shrink: 0;
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .description-list {
@@ -152,15 +150,19 @@ margin-left: 0 auto;
 
 .team-section {
     background: #f4f4fd;
+    margin-top: 232px;
+    margin-bottom: 120px;
+    width: 1440px;
+    height: 732px;
 }
 .team-title{
-    color: #2E2F42;
-text-align: center;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-font-weight: 500;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-part {
@@ -238,7 +240,10 @@ letter-spacing: 0.02em;
 }
 
 .paragraph {
-    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .hero .container {
@@ -249,4 +254,23 @@ letter-spacing: 0.02em;
 
 .description-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+    padding: 0px;
+}
+
+.description-list-item .description-title {
+    margin-bottom: 8px;
+}
+
+.team-main-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background-color: #FFFFFF;
+    text-align: center;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-container {
+    padding: 32px 0;
 }
