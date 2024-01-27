@@ -4,6 +4,10 @@ body {
     background-color: #fff;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1158px;
     padding: 0 15px;
